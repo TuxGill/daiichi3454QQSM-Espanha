@@ -6,6 +6,18 @@ var escolha;
 var certa;
 var pronto=0;
 
+window.onbeforeunload = function (e) {
+  var e = e || window.event;
+
+  //IE & Firefox
+  if (e) {
+    e.returnValue = 'Are you sure?';
+  }
+
+  // For Safari
+  return 'Are you sure?';
+};
+
 $(document).ready(function(){
 
 	$('.home').click(function(event) {
@@ -18,9 +30,9 @@ $(document).ready(function(){
 	
 	
 	//setPerguntas = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p13,p17,p18,p19,p29,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40,p41,p42,p43];
-	setPerguntas = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p16,p17,p18,p19,p20];
+	setPerguntas = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24];
 	
-	//setPerguntas=[p43];
+	// setPerguntas=[p3];
 
 	shuffle(setPerguntas);
 	mostraPergunta();
@@ -31,6 +43,7 @@ $(document).ready(function(){
 	$('.ooohhh, .ooohhh-n3, .parabens-n6 ').click(function(){
 		newTeam();
 	});
+
 
 
 });
@@ -94,7 +107,7 @@ function checkAnswer(){
 		$('.r-'+certa).addClass('r-'+certa+'-certo');
 		$('.som-acertou')[0].play();
 
-		if(nivel<4){
+		if(nivel<5){
 			//mostraPergunta();
 			nivel++;
 			$('.nova-pergunta').css('pointer-events','auto');
@@ -125,7 +138,7 @@ function checkAnswer(){
 		$('.r-'+certa).addClass('r-'+certa+'-certo');
 
 		if(ajudas==0){
-			if(nivel >=4)
+			if(nivel >=5)
 				$('audio').stop();
 				$('.ooohhh').fadeIn( function(){
 				
@@ -133,7 +146,7 @@ function checkAnswer(){
 					$('.som-falhou')[0].play();
 					
 				});
-			if(nivel<4)
+			if(nivel<5)
 				$('.ooohhh').fadeIn( function(){
 					$('.som-falhou')[0].play();
 
@@ -212,7 +225,7 @@ function shuffle(array) {
 }
 
 function newTeam(){
-	 ajudas = 3;
+	 ajudas = 1;
 	 nivel =1;
 	 round =1;
 
@@ -229,8 +242,14 @@ function newTeam(){
 	$('.n2').attr('src','images/n2.png');
 	$('.n3').attr('src','images/n3.png');
 	$('.n4').attr('src','images/n4.png');
+	$('.n5').attr('src','images/n5.png');
 
 
 	mostraPergunta();
 
+}
+
+function closeBrowser(){
+	
+	window.close();
 }

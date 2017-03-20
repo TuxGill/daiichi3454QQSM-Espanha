@@ -1,184 +1,221 @@
 	var p1={n_pergunta:'1',
-			texto:'Relativamente às subanálises, qual dos seguintes critérios NÃO estava predefinido para considerar um doente como tendo risco de quedas:',
-			a:'História prévia de quedas;',
-			b:'Disfunção cognitiva;',
-			c:'Hipertensão;',
-			d:'Toma de psicotrópicos',
-			r_certa:'C'
+			texto:'La Cmax para Edoxabán después de la administración oral es:',
+			a:'0.5-1 h',
+			b:'1-2 h',
+			c:'2-3 h',
+			d:'3-4 h',
+			r_certa:'B'
 	};
 
 
 	var p2={n_pergunta:'2',
-			texto:'Relativamente às subanálises apresentadas, é CORRETO dizer que os doentes com risco de quedas tinham de modo estatisticamente significativo, e em relação aos doentes sem risco de quedas:',
-			a:'Menor CHADS<sub>2</sub>',
-			b:'Mais diagnóstico de Diabetes',
-			c:'Mais doentes com ≤50kg',
-			d:'Menor idade',
-			r_certa:'B'
-	};
-
-	var p3={n_pergunta:'3',
-			texto:'Em relação ao controlo do INR nos doentes com varfarina (TTR), os indivíduos com idade maior ou igual a 75A, o valor de TTR foi:',
-			a:'42,6%',
-			b:'57,2%',
-			c:'69,6%',
-			d:'68,4%',
+			texto:'En el estudio ENGAGE AF-TIMI 48 la media de puntuación CHADS2 fue de:',
+			a:'3.8',
+			b:'2.1',
+			c:'2.8',
+			d:'3.0',
 			r_certa:'C'
 	};
 
+	var p3={n_pergunta:'3',
+			texto:'Respecto a la farmacología de la eliminación y de la metabolización del edoxabán es VERDAD que:',
+			a:'El 50% de la dosis administrada se elimina por vía renal <br />y el 10% se metaboliza por vía hepática.',
+			b:'Por vía renal se elimina el 35% <br />de la dosis absorbida por vía oral.',
+			c:'El 35% de la dosis administrada se elimina por vía renal <br />y el resto, por vía hepática.',
+			d:'El 50% de la dosis absorbida se elimina por vía renal <br />y el 10% se metaboliza por vía hepática.',
+			r_certa:'D'
+	};
+
 	var p4={n_pergunta:'4',
-			texto:'A percentagem de doentes com idade igual ou superior a 75A, que tiveram ajuste de dose no momento da aleatorização foi de:',
-			a:'5%',
-			b:'41%',
-			c:'76%',
-			d:'25%',
-			r_certa:'B'
+			texto:'Respecto al estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación INCORRECTA?:',
+			a:'El end-point principal de seguridad fue la tasa de eventos de sangrado mayor y no mayor clínicamente relevante.',
+			b:'El régimen de 30 mg/15 mg de edoxabán fue no inferior <br />a la warfarina.',
+			c:'El margen de no inferioridad (delta) fue de 1,38.',
+			d:'La mediana de TTR para la warfarina fue del 68,4%.',
+			r_certa:'A'
 	};
 
 	var p5={n_pergunta:'5',
-			texto:'Em relação à eficácia e segurança do EDX 60/30mg vs varfarina, nos doentes com antiagregação plaquetar concomitante vs os demais, os resultados foram:',
-			a:'Consistentes para eficácia e inconsistentes para a segurança',
-			b:'Consistentes para eficácia e consistentes para a segurança',
-			c:'Inconsistentes para eficácia e inconsistentes para a segurança',
-			d:'Inconsistentes para a eficácia e consistentes para a segurança',
-			r_certa:'B'
+			texto:'Respecto al estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación CORRECTA?:',
+			a:'La media de puntuación CHADS2 fue 2,1.',
+			b:'El porcentaje de pacientes que presentaban una puntuación CHADS2 ≥ 3 fue de cerca del 58%.',
+			c:'El porcentaje de pacientes hipertensos era <br />de más del 90%.',
+			d:'El porcentaje de pacientes que presentaban una puntuación CHADS2 entre 4 y 6 fue del 77%.',
+			r_certa:'C'
 	};
 
 	var p6={n_pergunta:'6',
-			texto:'A antiagregação plaquetar mais frequente nos doentes do ENGAGE foi:',
-			a:'Aspirina',
-			b:'Clopidogrel',
-			c:'Ticagrelor',
-			d:'Aspirina + Clopidogrel',
-			r_certa:'A'
+			texto:'Respecto al estudio Hokusai-VTE, ¿cuál es la afirmación CORRECTA?:',
+			a:'Se seleccionaron menos pacientes con TVP <br />que pacientes con EP.',
+			b:'Demostró que edoxabán tiene un perfil de seguridad parecido al de la warfarina.',
+			c:'La duración mínima de la terapia era de 3 semanas.',
+			d:'Tuvo los pacientes con mejor TTR respecto a los estudios del resto de NOAC.',
+			r_certa:'D'
 	};
 
 	var p7={n_pergunta:'7',
-			texto:'Em relação à pontuação de CHADS<sub>2</sub> nos doentes com AVC/AIT prévio incluídos no estudo ENGAGE, é correto dizer que:',
-			a:'CHADS<sub>2</sub> de 4-6 foi mais frequente que 2 e 3',
-			b:'CHADS<sub>2</sub> de 4-6 foi menos frequente que 2 e 3',
-			c:'CHADS<sub>2</sub> de 4-6 foi de similar frequência que 2 e 3',
-			d:'O CHADS<sub>2</sub> não foi calculado',
-			r_certa:'A'
+			texto:'La eliminación renal de Edoxabán es:',
+			a:'66 % de la sustancia tomada',
+			b:'25 % de la sustancia tomada',
+			c:'35 % de la sustancia tomada',
+			d:'80 % de la sustancia tomada',
+			r_certa:'C'
 	};
 
 	var p8={n_pergunta:'8',
-			texto:'No ENGAGE, os doentes tratados com varfarina e que tiveram AVC isquémico prévio tinham com maior frequência, em relação aos doentes sem AVC prévio, que valores de INR?',
-			a:'≥4.0',
-			b:'Entre 2 e 3',
-			c:'<1.5',
-			d:'Não havia diferença de frequência',
+			texto:'En el estudio 018, la incidencia de sangrado se corresponde con las curvas observadas de :',
+			a:'Cmax (Concentración plasmática máxima en estado estacionario)',
+			b:'AUC (Área bajo la curva)',
+			c:'Cmin (Concentración mínima en estado estacionario)',
+			d:'Actividad anti-Xa',
 			r_certa:'C'
 	};
 
 	var p9={n_pergunta:'9',
-			texto:'No ENGAGE, os doentes tratados com varfarina e que tiveram AVC hemorrágico prévio tinham com maior frequência, em relação aos doentes sem AVC prévio, que valores de INR?',
-			a:'≥4.0',
-			b:'Entre 2 e 3',
-			c:'<1.5',
-			d:'Não havia diferença de frequência',
-			r_certa:'D'
-	};
-
-	var p10={n_pergunta:'10',
-			texto:'Relativamente à eficácia do EDX vs varfarina nos doentes com diferentes funções renais concluiu-se que',
-			a:'É consistente para ClCr 30–50ml/min e CrCl >50ml/min',
-			b:'É inconsistente para ClCr 30–50ml/min e CrCl >50ml/min',
-			c:'Doentes com função renal normal são os mais beneficiados',
-			d:'Nenhuma das anteriores',
-			r_certa:'A'
-	};
-
-	var p11={n_pergunta:'11',
-			texto:'Relativamente à eficácia do EDX vs varfarina nos doentes com diferentes funções renais pode dizer-se que:',
-			a:'As análises exploratórias são tidas em conta de igual forma por todas as autoridades',
-			b:'As análises exploratórias são geradoras de hipóteses',
-			c:'As análises exploratórias contraindicam EDX em doentes com CrCl >50ml/min',
-			d:'As análises exploratórias contraindicam EDX em doentes com CrCl < 95ml/min',
-			r_certa:'B'
-	};
-
-	var p12={n_pergunta:'12',
-			texto:'FDA tem uma restrição para a utilização do EDX nos doentes com:',
-			a:'CrCl > 50ml/min',
-			b:'CrCl > 75ml/min',
-			c:'CrCl > 95ml/min',
-			d:'CrCl 50-80 ml/min',
+			texto:'Respecto a los principales estudios del desarrollo clínico de edoxabán, ¿cuál es la afirmación CORRECTA?:',
+			a:'El ensayo de fase II de edoxabán frente a enoxaparina destaca de los demás fármacos anti-Xa por haber contado con pacientes con FA.',
+			b:'Todos los estudios pivotales de fase III con NOAC <br />en FA fueron diseñados de no inferioridad para los análisis de eficacia y seguridad. ',
+			c:'ENGAGE AF-TIMI 48 permitió incluir a pacientes <br />que estuviesen tomando clopidogrel.',
+			d:'ENGAGE AF-TIMI 48 presentó una estrategia <br />de ajuste de dosis para los pacientes con insuficiencia renal moderada o grave.',
 			r_certa:'C'
 	};
 
-	var p13={n_pergunta:'13',
-			texto:'Qual foi a principal causa de morte cardiovascular dos doentes do ENGAGE?',
-			a:'Morte súbita',
-			b:'Hemorragia mortal',
-			c:'AVC isquémico mortal',
-			d:'Nenhuma das anteriores',
+	var p10={n_pergunta:'10',
+			texto:'Respecto al estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación CORRECTA?:',
+			a:'La mediana de TTR para la warfarina fue del 64,8%',
+			b:'El régimen de 30 mg/15 mg no consiguió demostrar la no inferioridad en términos de eficacia en comparación con la warfarina, por lo que no se sometió a la aprobación de la EMA.',
+			c:'Se permitía el uso concomitante de ácido acetilsalicílico, solo en dosis iguales o inferiores a 100 mg/día.',
+			d:'El régimen de 30 mg/15 mg tuvo un comportamiento peor en la disminución del riesgo relativo de ictus hemorrágico frente a la warfarina que el régimen de 60 mg/30 mg.',
+			r_certa:'C'
+	};
+
+	var p11={n_pergunta:'11',
+			texto:'¿Cuál de las afirmaciones siguientes es la CORRECTA?:',
+			a:'Dabigatrán 150 mg es el único NACO que ha demostrado superioridad estadística en la disminución <br />del riesgo relativo de ictus isquémico frente a warfarina.',
+			b:'En el estudio ENGAGE AF-TIMI 48, el porcentaje <br />de pacientes que presentaba una puntuación CHADS2 de 1 fue el 10%.',
+			c:'Dabigatrán 110 mg fue el único que demostró superioridad estadística en la disminución del riesgo relativo de ictus isquémico frente a la warfarina.',
+			d:'Edoxabán 60/30 mg mostró tendencia a la superioridad en la disminución del riesgo relativo de ictus isquémico frente a la warfarina.',
 			r_certa:'A'
 	};
 
-	var p14={n_pergunta:'14',
-			texto:'Onde mais se notou o benefício significativo do EDX versus varfarina, em termos de mortalidade CV foi na redução estatisticamente significativa do RR de:',
-			a:'Morte súbita',
-			b:'Hemorragia mortal',
-			c:'AVC isquémico mortal',
-			d:'Nenhuma das anteriores',
+	var p12={n_pergunta:'12',
+			texto:'Según Ficha técnica, el agente reversor 4-PCC:',
+			a:'Revierte el efecto anticoagulante de edoxabán <br />tras 5 min.',
+			b:'Revierte el efecto anticoagulante de edoxabán <br />tras 30 min.',
+			c:'Revierte el efecto anticoagulante de edoxabán <br />tras 15 min.',
+			d:'Demostró reversión, a pesar de los efectos trombógenos.',
 			r_certa:'B'
 	};
 
+	var p13={n_pergunta:'13',
+			texto:'En el ensayo ENGAGE AF-TIMI 48, el margen de no inferioridad fue:',
+			a:'1.46',
+			b:'1.38',
+			c:'1.54',
+			d:'1.25',
+			r_certa:'B'
+	};
+
+	var p14={n_pergunta:'14',
+			texto:'Edoxabán es:',
+			a:'Inductor competitivo del factor Xa',
+			b:'Inhibidor indirecto del factor Xa',
+			c:'Inhibidor de la generación de trombina',
+			d:'Inhibidor directo del factor Xa e inductor del factor IIa',
+			r_certa:'C'
+	};
+
 	var p15={n_pergunta:'15',
-			texto:'Em que tipo de AVC hemorrágico o EDX60/30mg NÃO conseguiu a superioridade estatística versus varfarina?',
-			a:'Mortal',
-			b:'Não incapacitante',
-			c:'Não mortal, incapacitante',
-			d:'Conseguiu em todos os anteriores',
+			texto:'Respeto al estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación CORRECTA?:',
+			a:'Un paciente que tomase verapamilo no ajustaba <br />a la mitad la dosis estándar. ',
+			b:'La mayoría de los pacientes tenían una edad superior <br />o igual a 75 años.',
+			c:'Hubo menos enfermos con CHADS2 entre 4 y 6 <br />que enfermos con CHADS2 de 2 y 3.',
+			d:'La mayoría de los enfermos eran diabéticos.',
 			r_certa:'C'
 	};
 
 	var p16={n_pergunta:'16',
-			texto:'Em que tipo de AVC isquémico o EDX60/30mg conseguiu a superioridade estatística versus varfarina?',
-			a:'Mortal',
-			b:'Não incapacitante',
-			c:'Não mortal, incapacitante',
-			d:'Não conseguiu em nenhum dos anteriores',
-			r_certa:'D'
+			texto:'En relación con el estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación CORRECTA?:',
+			a:'El régimen de 30 mg/15 mg tuvo un comportamiento peor en la disminución del riesgo relativo de ictus hemorrágico frente a la warfarina que el régimen de 60 mg/30 mg.',
+			b:'El régimen de 30mg/15mg fue superior respecto a warfarina en la disminución de las hemorragias GI.',
+			c:'El régimen de 60/30 mg mostró una tendencia a la superioridad frente a la warfarina en la disminución del ictus hemorrágico.',
+			d:'Solo se seleccionaron pacientes sin tratamiento previo con AVK.',
+			r_certa:'B'
 	}
 
 	var p17={n_pergunta:'17',
-			texto:'Em qual das seguintes hemorragias o EDX 60/30mg NÃO conseguiu um perfil de segurança estatisticamente superior ao da varfarina?',
-			a:'Hemorragias major',
-			b:'Hemorragias não major clinicamente relevantes',
-			c:'Hemorragias minor',
-			d:'Conseguiu reduzir em todas as anteriores',
-			r_certa:'D'
+			texto:'¿Cuál de las afirmaciones siguientes es la CORRECTA?:',
+			a:'En la FANV, edoxabán 60/30 mg demostró <br />una disminución del riesgo relativo de mortalidad <br />por todas las causas. ',
+			b:'En la FANV, edoxabán 30/15 mg fue el NOAC <br />que demostró mejor perfil de seguridad frente <br />a la warfarina respecto a las hemorragias GI.',
+			c:'En la FANV, edoxabán 30/15 mg y el dabigatrán fueron los únicos que demostraron mejor perfil de seguridad respecto a las hemorragias GI.',
+			d:'Dabigatrán está contraindicado para pacientes <br />con ClCr de 32 ml/min.',
+			r_certa:'B'
 	}
 
 	var p18={n_pergunta:'18',
-			texto:'Em relação aos endpoints principais de eficácia de segurança analisados nos doentes sob ajuste de dose vs sem ajuste de dose, é CORRETO afirmar-se o EDX teve:',
-			a:'Apenas eficácia com diferenças estatisticamente significativas',
-			b:'Apenas segurança com diferenças estatisticamente significativas',
-			c:'Eficácia e segurança sem diferenças estatisticamente significativas',
-			d:'Eficácia e segurança com diferenças estatisticamente significativas',
-			r_certa:'B'
+			texto:'¿Cuál de las siguientes afirmaciones es la CORRECTA?:',
+			a:'En el ENGAGE, un paciente con insuficiencia renal moderada, que tomase amiodarona y que tuviese <br />72 kg de peso, tomaba 30 mg de edoxabán.',
+			b:'En el ENGAGE se permitía el uso <br />de la doble antiagregación plaquetaria.',
+			c:'En el ENGAGE, un enfermo con insuficiencia renal leve, que tomase verapamilo y tuviese 72 kg de peso, <br />tomaba 60 mg de edoxabán.',
+			d:'Edoxabán tiene un tiempo de semivida (t1/2) de 24-36h, lo que explica su actividad anticoagulante de, <br />como mínimo, 24h.',
+			r_certa:'A'
 	}
 
 
 	var p19={n_pergunta:'19',
-			texto:'Em relação aos principais estudos de fase 3 em FA, é CORRETO afirmar que o ENGAGE:',
-			a:'Foi o que teve CHADS<sub>2</sub> médio mais elevado',
-			b:'Foi o que teve maior percentagem de doentes com ajuste de dose',
-			c:'Foi o que teve maior percentagem de doentes com AVC/AIT prévios',
-			d:'Nenhuma das anteriores',
-			r_certa:'B'
+			texto:'En el ensayo ENGAGE AF-TIMI 48 se reclutaron:',
+			a:'14.264 pacientes',
+			b:'18.113 pacientes',
+			c:'21.105 pacientes',
+			d:'18.201 pacientes',
+			r_certa:'C'
 	}
 
 	var p20={n_pergunta:'20',
-			texto:'Em relação aos doentes com ajuste de dose é VERDADE que:',
-			a:'Parecem ganhar mais segurança',
-			b:'Parecem ganhar mais eficácia',
-			c:'Parecem ganhar mais eficácia e segurança',
-			d:'Parecem ganhar eficácia e perder segurança ',
+			texto:'¿Cuál es la opción CORRECTA:',
+			a:'Hokusai era un pintor.',
+			b:'Hokusai es el sustantivo japonés <br />que significa “ola grande”.',
+			c:'Hokusai es el nombre del grupo de investigación <br />japonés que diseñó el estudio Hokusai-VTE.',
+			d:'Hokusai era el nombre del primer médico japonés <br />que recibió el Premio Nobel de Medicina.',
 			r_certa:'A'
 	}
+
+	var p21={n_pergunta:'21',
+			texto:'En relación con el estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación INCORRECTA?:',
+			a:'La dosis de edoxabán se podría reducir a la mitad tanto en el momento de aleatorización como durante el estudio.',
+			b:'Solo 1 enfermo abandonó el estudio <br />al retirar el consentimiento informado.',
+			c:'Fue un ensayo de no inferioridad, <br />cuyo end-point primario de eficacia <br />era la tasa de ictus o embolismo sistémico.',
+			d:'La mayoría de los enfermos tenían hipertensión.',
+			r_certa:'B'
+	}
+
+	var p22={n_pergunta:'22',
+			texto:'Respecto al estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación INCORRECTA?:',
+			a:'Se excluyeron pacientes con insuficiencia renal grave (CrCl< 30 ml/min).',
+			b:'Se incluyeron pacientes con FANV, <br />portadores de prótesis dentales, <br />así como a enfermos con válvulas bioprotésicas.',
+			c:'La población por intención de tratar modificada (mITT) incluía a todos los pacientes que estuvieran en tratamiento ininterrumpido durante todo el estudio.',
+			d:'La media de puntuación CHADS2 fue 2,8.',
+			r_certa:'C'
+	}
+
+	var p23={n_pergunta:'23',
+			texto:'Respecto a edoxabán, ¿cuál es la opción CORRECTA?:',
+			a:'Fue superior en la disminución de la tasa de eventos <br />de infarto agudo de miocardio respecto a la warfarina.',
+			b:'Es el único NOAC con un menor <br />metabolismo hepático por CYP.',
+			c:'Es el único NOAC 1 vez al día que demostró <br />un perfil de seguridad mejor que la warfarina <br />en la disminución de la tasa de sangrados mayores.',
+			d:'Está indicado en la prevención primaria del TEV.',
+			r_certa:'C'
+	}
+
+	var p24={n_pergunta:'24',
+			texto:'En qué grupos según la edad se clasificaron los pacientes de manera preespecificada <br />en el estudio ENGAGE AF-TIMI 48?',
+			a:'<75 años, >75 años',
+			b:'<65 años, 65-74 años y >75 años',
+			c:'<65 años, 65-74 años, 75-79 años y >80 años',
+			d:'<65 años, 65-74 años, 75-79 años, <br />80-84 años y >85 años',
+			r_certa:'B'
+	}
+
 
 
 
