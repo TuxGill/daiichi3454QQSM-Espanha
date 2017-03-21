@@ -83,9 +83,9 @@
 	var p10={n_pergunta:'10',
 			texto:'Respecto al estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación CORRECTA?:',
 			a:'La mediana de TTR para la warfarina fue del 64,8%',
-			b:'El régimen de 30 mg/15 mg no consiguió demostrar la no inferioridad en términos de eficacia en comparación con la warfarina, por lo que no se sometió a la aprobación de la EMA.',
+			b:'El régimen 30 mg/15 mg no demostró la no <br />inferioridad en eficacia comparado con warfarina, <br />así que no se sometió a la aprobación de la EMA.',
 			c:'Se permitía el uso concomitante de ácido acetilsalicílico, solo en dosis iguales o inferiores a 100 mg/día.',
-			d:'El régimen de 30 mg/15 mg tuvo un comportamiento peor en la disminución del riesgo relativo de ictus hemorrágico frente a la warfarina que el régimen de 60 mg/30 mg.',
+			d:' El régimen 30 mg/15 mg se comportó peor <br />disminuyendo el riesgo relativo de ictus hemorrágico <br />vs warfarina que el régimen de 60 mg/30 mg.',
 			r_certa:'C'
 	};
 
@@ -136,7 +136,7 @@
 
 	var p16={n_pergunta:'16',
 			texto:'En relación con el estudio ENGAGE AF-TIMI 48, ¿cuál es la afirmación CORRECTA?:',
-			a:'El régimen de 30 mg/15 mg tuvo un comportamiento peor en la disminución del riesgo relativo de ictus hemorrágico frente a la warfarina que el régimen de 60 mg/30 mg.',
+			a:'El régimen 30 mg/15 mg se comportó peor disminuyendo el riesgo relativo de ictus hemorrágico <br />vs warfarina que el régimen de 60 mg/30 mg.',
 			b:'El régimen de 30mg/15mg fue superior respecto a warfarina en la disminución de las hemorragias GI.',
 			c:'El régimen de 60/30 mg mostró una tendencia a la superioridad frente a la warfarina en la disminución del ictus hemorrágico.',
 			d:'Solo se seleccionaron pacientes sin tratamiento previo con AVK.',
